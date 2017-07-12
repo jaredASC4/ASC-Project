@@ -1,0 +1,1 @@
+var myArray = ["Jared",23, true];
