@@ -36,7 +36,7 @@ function keyPressed(){
     if (keyCode == 32){
         fill(255);
         rect(x+45, y-10, 10, 30);
-        y--;
+        y = y - 7;
     }
 }
 
