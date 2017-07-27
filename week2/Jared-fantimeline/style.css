@@ -1,0 +1,37 @@
+body{
+    width: 50%;
+    background-image: url("http://49.media.tumblr.com/d5eed5f144dcb26d10ff955894c2feed/tumblr_nqcbrnLLMl1t08yxho1_250.gif");
+    background-color: #cccccc;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+@media (max-width: 600px){
+    body{
+        width: 100%;
+         background-image: url("https://media.giphy.com/media/7A8O8rE9vAlPy/giphy.gif");
+         background-color: #cccccc;
+    }
+}
+
+.bio{
+    background:black;
+    border: 5px dashed red;
+}
+
+.main-img{
+    width: 50%;
+}
+
+h1{
+    color: purple;
+}
+
+h3{
+    color: purple;
+}
+
+p{
+    color: green;
+}
