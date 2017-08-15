@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCH8tpLILQgbPTpVmyFBgOjuUH2ybsbNNA",
+            authDomain: "rockpaperscissorsdatabase.firebaseapp.com",
+            databaseURL: "https://rockpaperscissorsdatabase.firebaseio.com",
+            projectId: "rockpaperscissorsdatabase",
+            storageBucket: "",
+            messagingSenderId: "460592611311"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    <h1> ROCK, PAPER, SCISSORS!</h1>
+    <input id="login" placeholder="Your Initials"> </input>
+    <button id="logbutton">Log In</button>
+    <button id="rock" onclick="game(0)">Rock</button>
+    <button id="scissors" onclick="game(2)">Scissors</button>
+    <button id="paper" onclick="game(1)">Paper</button>
+    <button id = "submitbutton" onclick="submit()"> Submit Score </button>
+    <div class="scoreboard">
+        <h2> Scoreboard:  </h2>
+        <h4 id="win"> </h4>
+        <h4 id="lose"></h4>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
